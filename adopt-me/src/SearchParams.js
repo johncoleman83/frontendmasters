@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import 'regenerator-runtime/runtime'
 import pet, { ANIMALS } from "@frontendmasters/pet"
 import useDropdown from "./useDropdown"
 import Results from "./Results"
